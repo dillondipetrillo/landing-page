@@ -2,4 +2,184 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  padding: 14px 25px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.nav-list {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-list li a,
+.subtitle {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+  line-height: 0.9;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  font-weight: 600;
+  padding: 8px 30px;
+  border-radius: 6px;
+  align-self: flex-start;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 90px 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 25px;
+}
+
+.card-section h2 {
+  color: #1f2937;
+}
+
+.card-section img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+  gap: 10px;
+}
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 90px 25px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cta-section {
+  padding: 70px 40px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #f9faf8;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 40px 80px;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 8px 30px;
+  background-color: transparent;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+}
+
+footer {
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
 }
